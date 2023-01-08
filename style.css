@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+    scroll-behavior: smooth;
+}
+
+:root{
+    --bgColorDark: #333333;
+    --headerColor: #070b09;
+    --whiteTextOnDark:rgb(255, 255, 255);
+}
+body{
+   background-color: var(--bgColorDark);
+}
+
+header{
+    background-color: var(--headerColor);
+}
+
+header span{
+    color: var(--whiteTextOnDark);
+    padding: 2rem;
+    font-size: 36px;
+}
