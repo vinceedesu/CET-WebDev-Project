@@ -23,3 +23,16 @@ header span{
     padding: 2rem;
     font-size: 36px;
 }
+
+.items{
+    background-color: var(--whiteTextOnDark);
+}
+
+.items p{
+    padding:   2rem;
+}
+
+.nav{
+
+    
+}
