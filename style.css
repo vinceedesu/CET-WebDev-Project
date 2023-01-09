@@ -16,10 +16,48 @@ body{
 
 header{
     background-color: var(--headerColor);
+    align-items: center;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
 }
 
 header span{
     color: var(--whiteTextOnDark);
     padding: 2rem;
     font-size: 36px;
+}
+
+.items{
+    background-color: var(--whiteTextOnDark);
+}
+
+.items p{
+    padding:   2rem;
+}
+
+.nav-links{
+    text-align: right;
+}
+
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin-right: 1rem;
+}
+
+.nav-links li a{
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    color: var(--whiteTextOnDark);
+}
+
+.nav-links li:hover{
+    background-color: #333333;
+    transition: .6s;    
 }
