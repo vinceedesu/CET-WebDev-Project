@@ -16,6 +16,11 @@ body{
 
 header{
     background-color: var(--headerColor);
+    align-items: center;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    width: 100%;
 }
 
 header span{
@@ -32,7 +37,27 @@ header span{
     padding:   2rem;
 }
 
-.nav{
+.nav-links{
+    text-align: right;
+}
 
-    
+.nav-links ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li{
+    margin-right: 1rem;
+}
+
+.nav-links li a{
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+    color: var(--whiteTextOnDark);
+}
+
+.nav-links li:hover{
+    background-color: #333333;
+    transition: .6s;    
 }
