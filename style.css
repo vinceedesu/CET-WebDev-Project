@@ -9,6 +9,12 @@
     --bgColorDark: #333333;
     --headerColor: #070b09;
     --whiteTextOnDark:rgb(255, 255, 255);
+
+    --grayColorDark: #363738;
+    --blueWaterColor: #1D64C2;
+    --skyBlueColor: #7fadeb;
+    --tipBlueColor: #d9E8FC;
+    --grayColorLight: #8792A1;
 }
 body{
    background-color: var(--bgColorDark);
